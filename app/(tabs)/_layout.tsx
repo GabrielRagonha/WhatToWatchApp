@@ -1,5 +1,5 @@
-import { icons } from "@/constants/icons";
-import { images } from "@/constants/images";
+import { icons } from "@/src/constants/icons";
+import { images } from "@/src/constants/images";
 import { Tabs } from "expo-router";
 import React from "react";
 import { Image, ImageBackground, Text, View } from "react-native";
