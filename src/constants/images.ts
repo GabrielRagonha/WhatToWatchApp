@@ -8,9 +8,9 @@ export const images = {
   rankingGradient,
 };
 
-export const cardImages = {
-  apiImagePath: "https://image.tmdb.org/t/p/w500",
-  defaultImage: "https://placehold.co/600x400/1a1a1a/ffffff.png",
+export const CARD_IMAGES = {
+  API_IMAGE_PATH: "https://image.tmdb.org/t/p/w500",
+  DEFAULT_IMAGE: "https://placehold.co/600x400/1a1a1a/ffffff.png",
 };
 
 export default images;

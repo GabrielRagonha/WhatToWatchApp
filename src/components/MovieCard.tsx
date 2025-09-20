@@ -1,4 +1,4 @@
-import { cardImages } from "@/src/constants/images";
+import { CARD_IMAGES } from "@/src/constants/images";
 import { Link } from "expo-router";
 import React from "react";
 import { Image, Text, TouchableOpacity, View } from "react-native";
@@ -17,8 +17,8 @@ const MovieCard = ({
         <Image
           source={{
             uri: poster_path
-              ? `${cardImages.apiImagePath}${poster_path}`
-              : cardImages.defaultImage,
+              ? `${CARD_IMAGES.API_IMAGE_PATH}${poster_path}`
+              : CARD_IMAGES.DEFAULT_IMAGE,
           }}
           className="w-full h-52 rounded-lg"
           resizeMode="cover"
